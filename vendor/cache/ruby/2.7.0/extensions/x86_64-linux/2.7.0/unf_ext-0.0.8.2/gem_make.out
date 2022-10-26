@@ -1,0 +1,16 @@
+current directory: /home/elvis/phase-3-ruby-building-applications-gems-and-bundler/vendor/cache/ruby/2.7.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/home/elvis/.rbenv/versions/2.7.1/bin/ruby -I /home/elvis/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20221026-275732-uufn2d.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/elvis/phase-3-ruby-building-applications-gems-and-bundler/vendor/cache/ruby/2.7.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /home/elvis/phase-3-ruby-building-applications-gems-and-bundler/vendor/cache/ruby/2.7.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/elvis/phase-3-ruby-building-applications-gems-and-bundler/vendor/cache/ruby/2.7.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR=" install
+/bin/install -c -m 0755 unf_ext.so ./.gem.20221026-275732-1thbo2t

@@ -86,12 +86,12 @@ describe "Bundler" do
     end
 
     # http://bundler.io/v1.3/groups.html
-    it "requires the default and development groups in the environment" do
-      expect(environment_text =~ /Bundler\.require\(:default, :development\)/).not_to eq(nil)
-    end
+   # it "requires the default and development groups in the environment" do
+    #  expect(environment_text =~ /Bundler\.require\(:default, :development\)/).not_to eq(nil)
+    #end
 
-    it "makes the bundler gems available in bin/run" do
-      expect { load "bin/run" }.not_to raise_error
-    end
+    #it "makes the bundler gems available in bin/run" do
+     # expect { load "bin/run" }.not_to raise_error
+   # end
   end
 end
